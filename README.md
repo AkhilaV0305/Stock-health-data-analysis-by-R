@@ -1,65 +1,68 @@
-Stock & Health Data Analysis Project 📊
+Stock & Health Data Analysis 📊
+Overview
 
-Overview:
-Analyzed stock market trends and health survey data using R to uncover patterns, relationships, and actionable insights.
+This project analyzes stock market trends and health survey data using R to uncover patterns, relationships, and actionable insights. It demonstrates multivariate statistical analysis, factor analysis, PCA, MANOVA, and data visualization.
 
-Key Highlights
-1️⃣ Stock Market Analysis
+Stock Market Analysis
 
 Goal: Identify hidden factors influencing stock prices.
+Methods: Factor Analysis (PC & MLE) and Principal Component Analysis (PCA) with Varimax rotation.
 
-Methods: Factor Analysis (PC & MLE) and PCA with Varimax rotation.
+Key Insights:
 
-Insights:
+Three main factors:
 
-3 key factors: market leaders, consumer-driven companies, and international giants.
+Market leaders with diversified portfolios (e.g., Walmart, Apple).
 
-Top influencers: Walmart, Apple, Toyota, Amazon.
+Companies influenced by consumer spending trends (e.g., Amazon, Pepsi).
 
-Impact: Supports investment strategy and portfolio analysis.
+International giants in tech, consumer goods, and finance.
+
+PCA revealed Walmart, Apple, Toyota, and Amazon as top influencers.
+
+Impact: Provides insights for portfolio analysis and investment strategies.
 
 Tools: FactoMineR, psych, GPArotation, ggplot2, corrplot.
 
-2️⃣ Health Metrics by Gender
+Health Metrics Analysis
+1. By Gender
 
-Goal: Compare Age, Sleep Duration, and Heart Rate between Male vs Female.
-
+Goal: Compare Age, Sleep Duration, and Heart Rate between Male and Female participants.
 Method: Hotelling’s T² test & multivariate normality checks.
 
-Insights: Significant differences found in all metrics.
-
-Impact: Useful for targeted wellness initiatives.
-
+Insights: Significant differences were observed across all metrics.
+Impact: Useful for designing gender-specific wellness initiatives.
 Tools: MVN, heplots, DescTools.
 
-3️⃣ Health Metrics by Occupation
+2. By Occupation
 
-Goal: Compare metrics across Accountant, Doctor, Lawyer groups.
-
+Goal: Compare Age, Sleep Duration, and Heart Rate across Accountant, Doctor, Lawyer groups.
 Method: MANOVA with Bonferroni-adjusted confidence intervals.
 
-Insights: Age, Sleep, and Heart Rate vary significantly by occupation.
-
-Impact: Highlights occupation-specific health trends.
-
+Insights: Age, Sleep Duration, and Heart Rate vary significantly by occupation.
+Impact: Highlights occupation-specific health trends for targeted interventions.
 Tools: car, biotools, MVN.
 
 Visualizations
 
-Boxplots, 3D scatterplots, scatterplot matrices, correlation plots, and PCA graphs.
+Boxplots for univariate distributions
 
-Clear, interpretable visual summaries for decision-making.
+3D scatterplots and scatterplot matrices for multivariate relationships
+
+Correlation plots and PCA biplots
+
+Varimax rotation factor diagrams
 
 Data & Scripts
 
 Data: StockData.xlsx, Healthsleepdata.xlsx
 
-Scripts: Fully reproducible R scripts with preprocessing, analysis, and visualization.
+Scripts: Fully reproducible R scripts including preprocessing, analysis, and visualization
 
 Takeaways
 
-Demonstrates multivariate statistics, factor analysis, PCA, MANOVA, and data visualization skills.
+Demonstrates expertise in multivariate statistics, factor analysis, PCA, MANOVA, and data visualization.
 
-Quantifies insights for both financial and health data applications.
+Quantifies actionable insights for financial and health data.
 
 Fully reproducible and portfolio-ready for data science roles.
